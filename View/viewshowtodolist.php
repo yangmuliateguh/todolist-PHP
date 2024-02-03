@@ -1,9 +1,9 @@
 <?php
-require_once "../Model/todolist.php";
-require_once "../View/viewaddtodolist.php";
-require_once "../View/viewremovetodolist.php";
-require_once "../BusinessLogic/showtodolist.php";
-require_once "../Helper/input.php";
+require_once __DIR__ . "/../Model/todolist.php";
+require_once __DIR__ . "/../View/viewaddtodolist.php";
+require_once __DIR__ . "/../View/viewremovetodolist.php";
+require_once __DIR__ . "/../BusinessLogic/showtodolist.php";
+require_once __DIR__ . "/../Helper/input.php";
 
 function viewshowtodolist(){
     while(true){
